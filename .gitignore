@@ -1,2 +1,3 @@
 *.pbix.tmp
 .ipynb_checkpoints/
+.env
