@@ -82,9 +82,14 @@ The dashboard includes:
 
 \- Filters by Country and Month
 
+KPI Definitions
 
+- Total Revenue = SUM(revenue) across all valid orders
+- Total Orders = COUNT of transactions with a valid customer ID
+- Average Order Value = Total Revenue ÷ Total Orders
+- Total Customers = DISTINCT COUNT of customer IDs
 
-&#x20;Data Cleaning \& Validation
+Data Cleaning & Validation
 
 
 
@@ -98,7 +103,7 @@ would distort customer-level analysis (e.g., Top 10 Customers, Total Customers).
 
 
 
-\*\* Validation summary (MySQL source vs. Power BI dashboard):\*\*
+Validation summary (MySQL source vs. Power BI dashboard):
 
 
 
@@ -119,7 +124,7 @@ orders lacking valid customer attribution, not a data loading error.
 
 
 
-&#x20;How to Reproduce
+How to Reproduce
 
 
 
